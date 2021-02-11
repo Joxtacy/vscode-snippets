@@ -1,34 +1,34 @@
 {
-    "Print to console with desciption": {
+    "Print variable and \"variable\"": {
         "prefix": "conc",
         "body": ["console.log(\"$1\", $1);$0"],
         "description": "Print variable and variable name to console"
     },
-    "Create it test stub": {
+    "it test stub": {
         "prefix": "itt",
         "body": [
             "it(\"${1:test description}\", () => {",
                 "    $0",
                 "});"
             ],
-        "description": "Create an it test stub"
+        "description": "Creates an it test stub"
     },
-    "Create async it test stub": {
+    "async it test stub": {
         "prefix": "aitt",
         "body": [
             "it(\"${1:test description}\", async () => {",
                 "    $0",
                 "});"
             ],
-        "description": "Create an async it test stub"
+        "description": "Creates an async it test stub"
     },
-    "Create desc test stub": {
+    "describe test stub": {
         "prefix": "desc",
         "body": [
             "describe(\"${1:test description}\", () => {",
             "    $0",
             "});"
         ],
-        "description": "Create a describe test stub"
+        "description": "Creates a describe test stub"
     }
 }
