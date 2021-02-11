@@ -1,7 +1,13 @@
 {
     "name": "snippets",
-    "displayName": "Snippetopia",
-    "description": "Some convenient snippets",
+    "displayName": "Your snippets",
+    "description": "Some convenient snippets for your everyday coding use",
+    "keywords": [
+        "snippets",
+        "javascript",
+        "typescript",
+        "svelte"
+    ],
     "version": "0.0.1",
     "publisher": "Joxtacy",
     "repository": {
@@ -18,6 +24,10 @@
         "snippets": [
             {
                 "language": "javascript",
+                "path": "./snippets/javascript.code-snippets"
+            },
+            {
+                "language": "typescript",
                 "path": "./snippets/javascript.code-snippets"
             },
             {

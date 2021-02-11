@@ -1,9 +1,52 @@
-# snippets README
+# Your Snippets
 
 These are some convenient snippets to use in your everyday coding life.
 
 ## Features
 
+Includes snippets for use in [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript), [TypeScript](https://www.typescriptlang.org/), and [Svelte](https://svelte.dev/).
+
+### JavaScript and TypeScript snippets
+
+#### conc
+
+Creates a `console.log` with what you type expanded as both a variable and a string with the same text.
+
+```javascript
+console.log("variable", variable);
+```
+
+#### desc
+
+Creates a `desc` test stub.
+
+```javascript
+desc("description", () => {
+    // your tests here
+});
+```
+
+#### itt
+
+Creates an `it` test stub.
+
+```javascript
+it("description", () => {
+    // your tests here
+});
+```
+
+#### aitt
+
+Creates an async `it` test stub.
+
+```javascript
+it("description", async () => {
+    // your tests here
+});
+```
+
+### Svelte snippets
 Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
 
 For example if there is an image subfolder under your extension project workspace:
@@ -14,52 +57,18 @@ For example if there is an image subfolder under your extension project workspac
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+No requirements. 🥳
 
 ## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
+No settings. Just use the snippets! 🔥
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+No known issues. 🌈
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
+### 0.0.1
 
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+Initial release of Your Snippets
