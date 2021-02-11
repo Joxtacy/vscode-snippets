@@ -1,0 +1,20 @@
+{
+    "Svelte <script lang='ts'>": {
+        "prefix": "tsscript",
+        "body": [
+            "<script lang=\"ts\">",
+            "    $0",
+            "</script>"
+        ],
+        "description": "Creates a new TypeScript script block"
+    },
+    "Svelte <style lang='scss'>": {
+        "prefix": "scssstyle",
+        "body": [
+            "<style lang=\"scss\">",
+            "    $0",
+            "</style>"
+        ],
+        "description": "Creates a new SCSS style block"
+    }
+}

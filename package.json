@@ -1,0 +1,29 @@
+{
+    "name": "snippets",
+    "displayName": "snippets",
+    "description": "Some convenient snippets",
+    "version": "0.0.1",
+    "publisher": "joxtacy",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Joxtacy/vscode-snippets"
+    },
+    "engines": {
+        "vscode": "^1.53.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/javascript.code-snippets"
+            },
+            {
+                "language": "svelte",
+                "path": "./snippets/svelte.code-snippets"
+            }
+        ]
+    }
+}
