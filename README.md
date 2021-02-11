@@ -14,7 +14,7 @@ Creates a `console.log` with what you type expanded as both a variable and a str
 console.log("variable", variable);
 ```
 
-![conc](gifs/conc.gif)
+![conc](images/conc.gif)
 
 ### desc
 
@@ -26,7 +26,7 @@ describe("description", () => {
 });
 ```
 
-![desc](gifs/desc.gif)
+![desc](images/desc.gif)
 
 ### itt
 
@@ -38,7 +38,7 @@ it("description", () => {
 });
 ```
 
-![iitt](gifs/itt.gif)
+![iitt](images/itt.gif)
 
 ### aitt
 
@@ -50,7 +50,7 @@ it("description", async () => {
 });
 ```
 
-![aiitt](gifs/aitt.gif)
+![aiitt](images/aitt.gif)
 
 ## Svelte snippets
 
@@ -61,7 +61,7 @@ it("description", async () => {
     // your code here
 </script>
 ```
-![tsscript](gifs/tsscript.gif)
+![tsscript](images/tsscript.gif)
 
 ### scssstyle
 
@@ -73,7 +73,7 @@ Creates a SCSS style element.
 </style>
 ```
 
-![scssstyle](gifs/scssstyle.gif)
+![scssstyle](images/scssstyle.gif)
 
 ## Requirements
 
