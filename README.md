@@ -2,13 +2,11 @@
 
 These are some convenient snippets to use in your everyday coding life.
 
-## Features
-
 Includes snippets for use in [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript), [TypeScript](https://www.typescriptlang.org/), and [Svelte](https://svelte.dev/).
 
-### JavaScript and TypeScript snippets
+## JavaScript and TypeScript snippets
 
-#### conc
+### conc
 
 Creates a `console.log` with what you type expanded as both a variable and a string with the same text.
 
@@ -16,17 +14,21 @@ Creates a `console.log` with what you type expanded as both a variable and a str
 console.log("variable", variable);
 ```
 
-#### desc
+![conc](gifs/conc.gif)
 
-Creates a `desc` test stub.
+### desc
+
+Creates a `describe` test stub.
 
 ```javascript
-desc("description", () => {
+describe("description", () => {
     // your tests here
 });
 ```
 
-#### itt
+![desc](gifs/desc.gif)
+
+### itt
 
 Creates an `it` test stub.
 
@@ -36,7 +38,9 @@ it("description", () => {
 });
 ```
 
-#### aitt
+![iitt](gifs/itt.gif)
+
+### aitt
 
 Creates an async `it` test stub.
 
@@ -46,14 +50,30 @@ it("description", async () => {
 });
 ```
 
-### Svelte snippets
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+![aiitt](gifs/aitt.gif)
 
-For example if there is an image subfolder under your extension project workspace:
+## Svelte snippets
 
-\!\[feature X\]\(images/feature-x.png\)
+### tsscript
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+```html
+<script lang="ts">
+    // your code here
+</script>
+```
+![tsscript](gifs/tsscript.gif)
+
+### scssstyle
+
+Creates a SCSS style element.
+
+```html
+<style lang="scss">
+    // your styles here
+</style>
+```
+
+![scssstyle](gifs/scssstyle.gif)
 
 ## Requirements
 

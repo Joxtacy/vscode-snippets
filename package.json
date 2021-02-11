@@ -2,6 +2,7 @@
     "name": "snippets",
     "displayName": "Your Snippets",
     "description": "Some convenient snippets for your everyday coding use",
+    "icon": "icon.png",
     "keywords": [
         "snippets",
         "javascript",
