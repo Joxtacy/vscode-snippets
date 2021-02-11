@@ -29,6 +29,6 @@
             "    $0",
             "});"
         ],
-        "description": "Create a desc test stub"
+        "description": "Create a describe test stub"
     }
 }
